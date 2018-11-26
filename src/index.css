@@ -1,0 +1,91 @@
+.App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.App-logo {
+    width: 10rem;
+}
+
+.flyout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.home-feature-box .fa {
+    font-size: 6rem;
+}
+
+.home-feature-box span {
+    display: block;
+    color: #111;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.example-components-list li > a {
+    color: #495057;
+}
+
+.example-components-list li:last-child > a {
+    border-bottom: 0;
+}
+
+.example-components-list li > a .fa {
+    color: rgba(0, 0, 0, 0.35);
+    float: right;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.blueprints-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.each-blueprint {
+    border: solid 1px darkslategray;
+    border-radius: 10px;
+    background: lightblue;
+    margin: 15px;
+    padding: 15px;
+}
+
+.button-holder {
+    display: flex;
+}
+
+.capabilities-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.each-capability {
+    margin: 3px;
+    width: 45%;
+}
+
+.devices-container {
+    display: flex;
+}
+
+.bold {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#bp-font {
+    color: #1f75d1;
+    font-weight: bold;
+}
+
+.li-flex {
+    display: flex;
+    justify-content: space-between;
+}
